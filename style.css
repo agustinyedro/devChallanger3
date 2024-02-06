@@ -1,0 +1,95 @@
+:root{
+    --font: 'Sora', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafaf9;
+}
+.review{
+    position:relative;
+    height: 100vh;
+    margin:120px 25px 100px 40px;
+    padding: 20px;
+}
+.circulo{
+    border-radius:50%;
+    padding:10px;
+    width:100px;
+    height:50px;
+    background-color:#F5C044;
+}
+h1{
+    margin:20px 0px;
+    font-family: var(--font);
+}
+p{
+    text-align: left;
+    font-family: var(--font);
+    font-size: 1.25rem;
+    padding-right: 700px;
+    color:#52525a;
+    line-height: 1.8;
+}
+ul{
+    margin: 30px 0px;
+}
+div li{
+    margin:5px 0px;
+    padding: 5px 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-family: var(--font);
+    font-size: 1rem;
+    color:#52525A;
+}
+.icono-check{
+margin-right: 8px;
+}
+/* cards de comentarios */
+.comentarios {
+    background-color: #ffffff;
+    padding: 25px 0px 20px 45px;
+    border-radius: 25px;
+    width:400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    box-shadow: 0px 0px 55px #D4D4D8;
+} 
+.comentarios.google{
+    padding-top: 30px;
+    position: absolute;
+    right: 60px;
+    top:120px;
+}
+.comentarios.meta{
+  
+    position: absolute;
+    right: 250px;
+    bottom:50px;
+}
+.comentarios img{
+    width: 100px;
+}
+.img-stars{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.img-stars img{
+    margin-right: 8px;
+}
+.comentarios h3{
+    margin-top: 10px;
+    font-family: var(--font);
+}
+.comentarios p{
+    padding: 10px 10px 10px 0px;
+    line-height: 1.5;
+}
